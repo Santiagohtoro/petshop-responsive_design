@@ -156,6 +156,7 @@ nav{
 #price{
     color:#F0A83E ;
     font-weight:bolder;
+    margin-top: 10px;
 }
 
 a{
@@ -164,8 +165,8 @@ a{
 }
 
 .p1{
-    width: 180px;
-    height: 230px;
+    width: 220px;
+    height: 300px;
     background-color: #f5f5dc;
     display: flex;
     flex-direction: column;
@@ -174,22 +175,10 @@ a{
     margin: 1%;
 }
 
-.Carne{
-    
-    width: 150px;
-    height: 151px;
-}
-
-.croquetas{
-    background-image: url(../img/croquetas.png);
-    width: 150px;
-    height: 152px;
-}
-
-.hueso{
-    background-image: url(../img/premios.png);
-    width: 150px;
-    height: 152px;
+.producto{
+    width: 180px;
+    height: 200px;
+    margin-bottom: 15px;
 }
 
 .ppl{
