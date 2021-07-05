@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+}
+
+.region{
+    margin-right: 50px;
+}
+label{
+    display: none;
+}
+.ofertas{
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+
+.superior{
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lang{
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo{
+    
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 167px;
+    margin-left: 20px ;
+}
+#inicial{
+    background-image: url(../img/Logo.png);
+}
+.menu{
+    display: none;
+}
+.opciones {
+    display:inline;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navegar{
+    margin-right: 10px;
+}
+
+nav{
+    background-color: #F0A83E;
+    height: 40px;
+}
+#opcion{
+    color: white;
+    margin-right: 10px ;
+}
+.container{
+    height: 450px;
+    width: 100%;
+}
+
+.banner{
+    background-image: url(../img/baner.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.alinear{
+    position: absolute;
+    left: 65%;
+    top:45%;
+    margin:20px;
+}
+
+#bienvenida{
+    background-color: white;
+    color: #3C2313;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-weight:normal;
+}
+
+#promo{
+    color: #3C2313;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+#Boton{
+    background-color:#F0A83E;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.Huella{
+    background-image: url(../img/pawprint\ 1.png);
+    width: 67px;
+    height: 71px;
+}
+
+.flex-paw{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Title-prod{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#3C2313;
+}
+
+.prod{
+    font-size: 0.8rem;
+}
+#price{
+    color:#F0A83E ;
+    font-weight:bolder;
+}
+
+a{
+    color: #3C2313;
+    font-weight: bolder;
+}
+
+.p1{
+    width: 180px;
+    height: 230px;
+    background-color: #f5f5dc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.Carne{
+    
+    width: 150px;
+    height: 151px;
+}
+
+.croquetas{
+    background-image: url(../img/croquetas.png);
+    width: 150px;
+    height: 152px;
+}
+
+.hueso{
+    background-image: url(../img/premios.png);
+    width: 150px;
+    height: 152px;
+}
+
+.ppl{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.entrada{
+    background-color: #3C2313;
+    color: white;
+    font-size: 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin: 4px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    color: #3C2313;
+}
+.botones{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.reset{
+    background-color: grey;
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 2.5px;
+}
+.enviar{
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#F0A83E;
+    margin-left: 2.5px;
+}
+footer{
+    background-color: #3C2313;
+    position: relative;
+}
+.subs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#F0A83E;
+}
+
+.fa-envelope{
+    margin: 10px;
+}
+.btn-sus{
+    color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:#3C2313;
+    margin-left: 2.5px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+.email{
+    width: 220px;
+    font-size: 10px;
+    height: 25px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+i{
+    color: white;
+    float: left;
+}
+.info-add p{
+    color: white;
+}
+.info-add i{
+    margin: 10px;
+}
+
+.info-add{
+    display: flex;
+    background-color: #5c2a0c;
+    color: #ffffff;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#final-log{
+    background-image: url(../img/Logo2.png);
+    display: flex;
+    justify-items: end;
+}
+
+.ultimo{
+    height: 15px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:714px) {
+
+    .superior{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        align-content: end;
+        margin-right: 20px;
+    }
+    .navegar{
+        display: none;
+    }
+    .alinear{
+        position: absolute;
+        left: 100px;
+        right: 100px;
+    }
+    .ppl{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subs{
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+    }
+    .fa-envelope{
+        margin-top: 10px;
+    }
+    .sus-email{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .info-add{
+        display: flex;
+        background-color: #5c2a0c;
+        color: #ffffff;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

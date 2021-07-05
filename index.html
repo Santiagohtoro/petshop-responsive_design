@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+    </style>
+    <title>Clase 6 - figma</title>
+</head>
+
+<body>
+    <header>
+        <div class="superior">
+            <article class="ofertas">Grandes ofertas en comederos</article>
+            <div class="region">    
+                <select name="lang" class="lang">
+                    <option value="1" >Español</option>       
+                </select>
+                <select name="Country" class="lang">
+                    <option value="1">AR$</option>       
+                </select>
+            </div>
+        </div>
+
+        <nav>
+            <div class="barra">
+                <div class="logo" id="inicial"></div>
+                
+                <img src="./img/menu-icon 1.png" class="menu" alt="Menu">
+                <ul class="navegar">
+                    <li class="opciones">
+                        <i class="fas fa-paw"><a href="#" id="opcion">Categorías</a></i>
+                    </li>
+                    <li class="opciones">
+                        <i class="fas fa-paw"><a href="#" id="opcion">Pets</a></i>
+                    </li>
+                    <li class="opciones">
+                        <i class="fas fa-paw"><a href="#" id="opcion">Nosotros</a></i>
+                    </li>
+                    <li class="opciones">
+                        <i class="fas fa-paw"><a href="#" id="opcion">Contactanos</a></i>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="banner">
+            <div class="alinear">
+                <h2 id="bienvenida">¡Es un placer tenerte aquí!</h2>
+                <p id="promo">¡Comederos en descuento!</p>
+                <button id="Boton">COMEDEROS</button>
+            </div>
+        </div>
+    </div>
+    <div class="flex-paw">
+        <div class="Huella"></div>
+        <h2 class="Title-prod">Productos Destacados</h2>
+        <p class="prod">Comederos - Accesorios - Comida</p>
+    </div>
+    <div class="ppl">
+        <div class="p1">
+            <img class="Carne" src="./img/churrasquito.png">
+            <a href="#">Juguete Churrasquito</a>
+            <p id="price">$150</p>
+        </div>
+        <div class="p1">
+            <img class="croquetas" src="./img/croquetas.png">
+            <a  href="#">Comedero para perro</a>
+            <p id="price">$250</p>
+        </div>
+        <div class="p1">            
+            <img class="hueso" src="./img/premios.png">
+            <a  href="#">Juguete Huesito</a>
+            <p id="price">$650</p>
+        </div>
+    </div>
+
+    <div class="contacto">
+        <h3>Contáctanos</h3>
+        <div>
+            <input class="entrada" type="text" name="Nombre y Apellido" value="Nombre y apellido">
+        </div>
+        <div>
+            <input class="entrada" type="text" name="Correo electronico" value="Ingresa tu correo electronico">
+        </div>
+        <div>
+        <input class="entrada" type="text" name="Telefono" value="Telefono">
+        </div>
+    </div>
+    <div class="botones">
+        <button class="reset">Resetear</button>
+        <button class="enviar">Enviar</button>
+    </div>
+    <footer>
+        <div class="subs">
+            <i class="fas fa-envelope">
+            <span class="text-sus">Suscribete para mas novedades</span>
+            </i>
+            <div class="sus-email">
+                <input class="email" type="text" name="email" value="Ingresa tu correo electronico">
+                <button class="btn-sus">Suscribirme</button>
+            </div>
+        </div>
+        <div class="info-add">
+            <div>
+                <div class="logo" id="final-log"></div>
+                <i class="fas fa-map-marker-alt" class="final"></i>
+                    <p><strong>Localidad</strong></p>
+                    <p>Calle - provincia</p>
+                <i class="fas fa-phone-alt" class="final"> </i>
+                    <p><strong>Telefono</strong></p>
+                    <p>Numero de telefono</p>
+                <i class="fas fa-mail-bulk" class="final"> </i>
+                    <p><strong>Correo electronico</strong></p>
+                    <p>Direccion de correo</p>  
+            </div>      
+        </div>
+        
+        <div class="ultimo">
+            <spam>Todos los derechos reservados Front End</spam>
+        </div>
+    </footer>
+</body>
+</html>
