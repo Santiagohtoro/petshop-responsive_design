@@ -10,7 +10,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
     </style>
-    <title>Clase 6 - figma</title>
+    <title>Petshop</title>
 </head>
 
 <body>
@@ -29,8 +29,7 @@
 
         <nav>
             <div class="barra">
-                <div class="logo" id="inicial"></div>
-                
+                <img src="./img/Logo.svg" alt="logo" class="logo">               
                 <img src="./img/menu-icon 1.png" class="menu" alt="Menu">
                 <ul class="navegar">
                     <li class="opciones">
@@ -59,7 +58,7 @@
         </div>
     </div>
     <div class="flex-paw">
-        <div class="Huella"></div>
+        <img src="./img/pawprint 1.svg" alt="Huella">
         <h2 class="Title-prod">Productos Destacados</h2>
         <p class="prod">Comederos - Accesorios - Comida</p>
     </div>
@@ -84,13 +83,13 @@
     <div class="contacto">
         <h3>Contáctanos</h3>
         <div>
-            <input class="entrada" type="text" name="Nombre y Apellido" value="Nombre y apellido">
+            <input class="entrada" type="text" name="Nombre y Apellido" value="Ingresa nombre y apellido">
         </div>
         <div>
             <input class="entrada" type="text" name="Correo electronico" value="Ingresa tu correo electronico">
         </div>
         <div>
-        <input class="entrada" type="text" name="Telefono" value="Telefono">
+            <input class="entrada" type="text" name="Telefono" value="Ingresa telefono">
         </div>
     </div>
     <div class="botones">
@@ -99,26 +98,32 @@
     </div>
     <footer>
         <div class="subs">
-            <i class="fas fa-envelope">
-            <span class="text-sus">Suscribete para mas novedades</span>
-            </i>
+            <div class="grupo">
+                <img src="./img/enviar-correo 1.svg" alt="Correo">
+                <span class="text-sus">Suscribete para mas novedades</span>
+            </div>
             <div class="sus-email">
                 <input class="email" type="text" name="email" value="Ingresa tu correo electronico">
                 <button class="btn-sus">Suscribirme</button>
             </div>
         </div>
         <div class="info-add">
-            <div>
-                <div class="logo" id="final-log"></div>
-                <i class="fas fa-map-marker-alt" class="final"></i>
-                    <p><strong>Localidad</strong></p>
-                    <p>Calle - provincia</p>
-                <i class="fas fa-phone-alt" class="final"> </i>
-                    <p><strong>Telefono</strong></p>
-                    <p>Numero de telefono</p>
-                <i class="fas fa-mail-bulk" class="final"> </i>
-                    <p><strong>Correo electronico</strong></p>
-                    <p>Direccion de correo</p>  
+            <div class="logo">
+                <img src="./img/Logofinal.svg" alt="logo" class="logofinal">
+            </div>
+            <div class="lista">
+                <div class="localidad">
+                    <img src="./img/Icono.svg">
+                        <p><strong>Localidad</strong><br><span>Calle - provincia</span></p>
+                </div>
+                <div class="telefono">
+                    <img src="./img/Iconotel.svg">
+                    <p><strong>Número de telefono</strong><br><span>Numero de telefono</span></p>
+                </div>
+                <div class="correo">
+                    <img src="./img/Iconoemail.svg">
+                    <p><strong>Correo electrónico</strong><br><span>Direccion de correo</span></p>  
+                </div>
             </div>      
         </div>
         
