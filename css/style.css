@@ -51,7 +51,10 @@ nav{
     display: none;
 }
 .opciones {
-    display:inline;
+    display:inline-block;
+}
+li:before { 
+    content:url(../img/pawprint\ 3.svg);
 }
 a{
     text-decoration: none;
@@ -127,6 +130,9 @@ i{
     align-items: center;
     margin-bottom: 10px;
 }
+.pawppl:before { 
+    content:url(../img/pawprint\ 1.svg);
+}
 .Title-prod{
     font-size: 30px;
     font-weight: bold;
@@ -164,6 +170,7 @@ a{
 .ppl{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 5%;
     margin-bottom: 5%;
 }
