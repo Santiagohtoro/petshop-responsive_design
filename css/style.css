@@ -321,11 +321,7 @@ footer{
     .navegar{
         display: none;
     }
-    .ppl{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
     .subs{
         display: flex;
         flex-direction: column;
