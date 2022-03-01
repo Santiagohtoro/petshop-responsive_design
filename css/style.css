@@ -288,7 +288,7 @@ footer{
     align-items: center;
     background-color: #5c2a0c;
     color: #ffffff;
-    height: 300px;
+    height: auto;
 }
 .localidad, .correo, .telefono{
     display: flex;
@@ -325,13 +325,10 @@ footer{
     .subs{
         display: flex;
         flex-direction: column;
-        align-items: initial;
+        align-items: center;
     }
-    .fa-envelope{
-        margin-top: 10px;
-    }
+
     .sus-email{
-        margin-top: 10px;
         margin-bottom: 5px;
     }
     .info-add{
@@ -340,5 +337,18 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .info{
+        margin-left: 0;
+    }
+    .add{
+        margin-top: 20px;
+    }
+    .logofinal{
+        margin-left: 70px;
+    }
+    .ultimo{
+        display: flex;
+        flex-direction: ;
     }
 }

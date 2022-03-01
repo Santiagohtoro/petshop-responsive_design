@@ -17,14 +17,14 @@
     <header>
         <div class="superior">
             <article class="ofertas">Grandes ofertas en comederos</article>
-            <div class="region">    
+            <form action="" method="get" class="region">    
                 <select name="lang" class="lang">
                     <option value="1" >Español</option>       
                 </select>
                 <select name="Country" class="lang">
                     <option value="1">AR$</option>       
                 </select>
-            </div>
+            </form>
         </div>
 
         <nav>
@@ -58,11 +58,11 @@
         </div>
     </div>
     <div class="flex-paw">
-    <div class="pawppl"></div>
+        <div class="pawppl"></div>
         <h2 class="Title-prod">Productos Destacados</h2>
         <p class="prod">Comederos - Accesorios - Comida</p>
     </div>
-    <div class="ppl">
+    <section class="ppl">
         <div class="p1">
             <img class="producto" src="./img/churrasquito.png">
             <a href="#">Juguete Churrasquito</a>
@@ -78,49 +78,43 @@
             <a  href="#">Juguete Huesito</a>
             <p id="price">$650</p>
         </div>
-    </div>
+    </section>
 
-    <div class="contacto">
+    <form action="" method="post" class="contacto">
         <h3>Contáctanos</h3>
-        <div>
-            <input class="entrada" type="text" name="Nombre y Apellido" value="Ingresa nombre y apellido">
-        </div>
-        <div>
-            <input class="entrada" type="text" name="Correo electronico" value="Ingresa tu correo electronico">
-        </div>
-        <div>
-            <input class="entrada" type="text" name="Telefono" value="Ingresa telefono">
-        </div>
-    </div>
-    <div class="botones">
-        <button class="reset">Resetear</button>
-        <button class="enviar">Enviar</button>
-    </div>
+            <input class="entrada" type="text" name="Nombre y Apellido" placeholder="Ingresa nombre y apellido">
+            <input class="entrada" type="text" name="Correo electronico" inputmode="email" placeholder="Ingresa tu correo electronico">
+            <input class="entrada" type="text" name="Telefono" inputmode="tel" placeholder="Ingresa telefono">
+            <div class="botones">
+                <input class="reset" type="reset" value="Resetear">
+                <input class="enviar" type="submit" value="Enviar">
+            </div>
+    </form>
     <footer>
         <div class="subs">
             <div class="grupo">
                 <img src="./img/enviar-correo 1.svg" alt="Correo">
                 <span class="text-sus">Suscribete para mas novedades</span>
             </div>
-            <div class="sus-email">
-                <input class="email" type="text" name="email" value="Ingresa tu correo electronico">
+            <form action="" method="post" class="sus-email">
+                <input class="email" type="text" name="email" inputmode="email" placeholder="Ingresa tu correo electronico">
                 <button class="btn-sus">Suscribirme</button>
-            </div>
+            </form>
         </div>
         <div class="info-add">
-            <div class="logo">
+            <div class="logo add">
                 <img src="./img/Logofinal.svg" alt="logo" class="logofinal">
             </div>
             <div class="lista">
-                <div class="localidad">
+                <div class="localidad info">
                     <img src="./img/Icono.svg">
                         <p><strong>Localidad</strong><br><span>Calle - provincia</span></p>
                 </div>
-                <div class="telefono">
+                <div class="telefono info">
                     <img src="./img/Iconotel.svg">
                     <p><strong>Número de telefono</strong><br><span>Numero de telefono</span></p>
                 </div>
-                <div class="correo">
+                <div class="correo info">
                     <img src="./img/Iconoemail.svg">
                     <p><strong>Correo electrónico</strong><br><span>Direccion de correo</span></p>  
                 </div>
